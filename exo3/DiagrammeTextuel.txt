@@ -1,0 +1,5 @@
+Le cas d'utilisation « Traiter le résultat de l'examen d'une candidature » débute dès que le système récupère l'évaluation réalisée par un professeur sur un dossier de candidature. 
+L'administration analyse ensuite le résultat selon trois cas : pour un dossier insuffisant (Cas 1), le système le classe en non-retenu et envoie une lettre de refus ; 
+si un entretien est requis (Cas 2), le candidat est convoqué, puis évalué par l'enseignant, sachant qu'une absence non justifiée entraîne un classement automatique en non-retenu ; 
+enfin, pour une admission directe (Cas 3), le dossier est validé. Pour les candidats retenus, l'administration communique la décision et fixe un délai d'inscription. 
+En cas de dépassement de ce délai, le système bascule automatiquement le dossier parmi les non-retenus et envoie un e-mail d'exclusion.
